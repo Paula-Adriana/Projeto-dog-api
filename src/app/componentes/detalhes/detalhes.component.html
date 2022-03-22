@@ -1,1 +1,15 @@
-<img src={{dogObj.message}}/>
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-sm-6 mb-3 text-center">
+      <div class="card text-center">
+        <img class="card-img-top" src="{{ dogObj.message }}" />
+        <div class="card-body">
+          <h5 class="card-title">Raça: {{ dogBreed | uppercase }}</h5>
+          <a class="nav-link" routerLink="/Lista">
+            <button class="btn btn-secondary">Voltar</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

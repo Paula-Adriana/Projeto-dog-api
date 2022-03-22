@@ -6,7 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {path: 'Lista', component: ListaDogsComponent},
   {path: 'Detalhes/:breed', component: DetalhesComponent},
-  {path: '', redirectTo: '/Lista', pathMatch:'full'},
+  {path: '', redirectTo: '/Lista', pathMatch:'full'}
 ];
 
 @NgModule({

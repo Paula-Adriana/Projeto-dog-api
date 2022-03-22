@@ -20,7 +20,6 @@ export class ServiceDogService {
 
   getImgDog (breed: string): Observable<any> {
     const url = `${environment.dogApi}/breed/${breed}/images/random`
-    console.log(url)
     return this.http.get<Img>(url);
 }
 }

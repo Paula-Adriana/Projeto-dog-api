@@ -8,12 +8,14 @@ import { FormsModule } from '@angular/forms';
 import { ListaDogsComponent } from './componentes/lista-dogs/lista-dogs.component';
 import { DetalhesComponent } from './componentes/detalhes/detalhes.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MenuComponent } from './componentes/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaDogsComponent,
-    DetalhesComponent
+    DetalhesComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

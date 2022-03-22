@@ -10,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ListaDogsComponent implements OnInit {
 
   public dogs: Array<any> | undefined;
+  public imgDog: Array<any> | undefined
   
 
   constructor(public dogService: ServiceDogService, public route: ActivatedRoute,) { }
